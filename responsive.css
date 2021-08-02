@@ -1,0 +1,95 @@
+@media(max-width:1024px){
+    .man-manu {
+        margin-left: 57px;
+    }
+}
+
+
+@media(max-width:991.98px){
+    span.opnebtn {
+        display: block;
+    }
+    .sticky-manu{
+        display: none;
+    }
+    .man-manu {
+        display: none;
+    }
+    .header-text-content {
+        width: 402px;
+    }
+    .header-text-social-icon {
+        left: 92px;
+    }
+    .header-text-content {
+        top: -405px;
+    }
+    .bisniess-text .subtitle::after {
+       display: none;
+    }
+    .about-me-image img {
+        height: 508px;
+        transform: translate(10px, 30px);
+    }
+    .team-item {
+        margin-bottom: 30px;
+    }
+    
+    
+}
+@media(max-width:767.98px){
+
+    .service-info {
+        width: 182px;
+    }
+    .bisniess-image {
+        margin-left: 112px;
+    }
+    .border-radius {
+        width: 447px;
+    }
+}
+@media(max-width:574.98px){
+    .bisniess-image {
+        margin-left: 58px;
+    }
+    .border-radius {
+        width: 401px;
+    }
+
+}
+@media(max-width:479.98px){
+    .header-text-content {
+        width: 359px;
+    }
+    .bisniess-image {
+        margin-left: 28px;
+    }
+    .border-radius {
+        width: 329px;
+    }
+    .about-me-image img {
+        height: 415px;
+    }
+}
+@media(max-width:380px){
+    .header-text-content p {
+        width: 305px;
+    }
+    .bisniess-text .title {
+        font-size: 26px;
+    }
+    .bisniess-text .subtitle {
+        font-size: 25px;
+    }
+    .bisniess-image {
+        margin-left: -46px;
+    }
+    .border-radius {
+        width: 239px;
+    }
+    .about-me-image img {
+        height: 343px;
+        transform: translate(-4px, 30px);
+    }
+}
