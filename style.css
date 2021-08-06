@@ -200,15 +200,7 @@ span.opnebtn {
     color:#25ABE1;
     position: relative;
 }
-.bisniess-text .subtitle::after {
-    content: "";
-    width: 161px;
-    height: 3px;
-    background:linear-gradient(#25ace1cc,#28df99b9,#4986FC);
-    position: absolute;
-    top: 105px;
-    left: 0px;
-}
+
 .bisniess-text p {
     color: #000;
     font-weight: 500;
@@ -429,7 +421,7 @@ p.about-text {
 .team-item {
     text-align: center;
     background: #1d2736;
-    height: 300px;
+    height: 250px;
     border-radius: 5px;
     box-shadow: 0px 0px 0px 0px;
     transition: .5s;
@@ -443,14 +435,15 @@ p.about-text {
     
 }
 .team-image img {
-    width: 210px;
+    width: 100px;
     border-top-left-radius:5px;
     border-top-right-radius:5px;
-    height: 215px;
+    height: 100px;
     transition: .4s;
+    border-radius: 50%;
+    margin-top: 30px;
 }
 .team-image img:hover {
-    transform: translate(0px, -20px);
 }
 .team-info p {
     color: #fff;
@@ -498,6 +491,10 @@ p.about-text {
 .team-social .linkedin i{
     color: #fff;
     
+}
+.team-item:hover .team-image img{
+    transform: translate(0px, -20px);
+
 }
 /* end team */
 /* strat-testominial  */
@@ -660,6 +657,35 @@ input[type="submit"] {
     color:#fff;
 }
 /* end  contect */
+/* strat protfolio */
+.protfolio{
+    padding:50px;
+    background:linear-gradient(45deg, #207ce5c2 0%, #6f4be8 100%),url("image/xbg_4.jpg.pagespeed.ic.E4otv5zS7m.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.protfolio-title h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    display: block;
+    padding-bottom:40px;
+    
+}
+.protfolio-title{
+    display: block;
+    width: 100%;
+}
+.protfolio-img img{
+    height: 200px;
+    width: 299px;  
+    box-shadow: 0px 0px 10px 0px #000;
+    border-radius: 5px;
+
+}
+
+/* end protfolio */
 /* strat google map */
 /* end  google map */
 /* strat footer */

@@ -44,6 +44,7 @@ $(document).ready(function(){
             $(".navigation").removeClass("sticky-manu");
         }
     })
+
 });
 
 function opnebtn(){
